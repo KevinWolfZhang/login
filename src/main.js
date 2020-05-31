@@ -3,6 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// import Vant from 'vant'
+// Vue.use(Vant)
+// import 'vant/lib/index.css'
+import {Button, Col, Row, Field} from 'vant'
+Vue.use(Button).use(Col).use(Row).use(Field)
 
 Vue.config.productionTip = false
 
